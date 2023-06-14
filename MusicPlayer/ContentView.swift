@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var model = Model.shared
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            PlaylistView()
+                .environmentObject(model)
+                .tabItem {
+                    VStack{
+                        Image(systemName: "music.note.list")
+                        Text("Playlists")
+                    }
+                }
+            
+            LibraryView()
+                .environmentObject(model)
+                .tabItem {
+                    VStack{
+                        Image(systemName: "music.note")
+                        Text("Library")
+                    }
+                }
         }
-        .padding()
     }
 }
 
