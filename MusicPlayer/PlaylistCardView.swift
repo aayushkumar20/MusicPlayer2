@@ -9,8 +9,24 @@ import SwiftUI
 
 struct PlaylistCardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading, spacing: 0) {
+            Spacer()
+            
+            HStack {
+                Text("Playlist Name")
+                Text("Playlist Details")
+                
+                Spacer()
+                    
+            }
+            .padding(10)
+            .frame(height: 50)
+            .background(UIBlurEffect(style: UIBlurEffectStyle.systemMaterialDark))
+        }
     }
+        .background(
+            Image(uiImage: UIImage())
+                .
 }
 
 struct PlaylistCardView_Previews: PreviewProvider {

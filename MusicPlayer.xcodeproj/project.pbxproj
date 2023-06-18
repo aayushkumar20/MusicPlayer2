@@ -15,6 +15,8 @@
 		2F59D76A2A38FFAB009F7FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F59D7692A38FFAB009F7FBE /* Assets.xcassets */; };
 		2F59D76E2A38FFAB009F7FBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F59D76D2A38FFAB009F7FBE /* Preview Assets.xcassets */; };
 		2F59D7772A39003F009F7FBE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59D7762A39003F009F7FBE /* Model.swift */; };
+		2FFB73742A3F894B0017324F /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB73732A3F894B0017324F /* BlurView.swift */; };
+		2FFB73782A3F8E650017324F /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB73772A3F8E650017324F /* CornerRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		2F59D76B2A38FFAB009F7FBE /* MusicPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MusicPlayer.entitlements; sourceTree = "<group>"; };
 		2F59D76D2A38FFAB009F7FBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F59D7762A39003F009F7FBE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2FFB73732A3F894B0017324F /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		2FFB73772A3F8E650017324F /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				2F3637162A3908E90081F3DA /* PlaylistView.swift */,
 				2F36371A2A390ADC0081F3DA /* PlaylistCardView.swift */,
 				2F59D7762A39003F009F7FBE /* Model.swift */,
+				2FFB73722A3F89310017324F /* New Group */,
 				2F59D7692A38FFAB009F7FBE /* Assets.xcassets */,
 				2F59D76B2A38FFAB009F7FBE /* MusicPlayer.entitlements */,
 				2F59D76C2A38FFAB009F7FBE /* Preview Content */,
@@ -79,6 +84,15 @@
 				2F59D76D2A38FFAB009F7FBE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FFB73722A3F89310017324F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2FFB73732A3F894B0017324F /* BlurView.swift */,
+				2FFB73772A3F8E650017324F /* CornerRadius.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +166,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F59D7772A39003F009F7FBE /* Model.swift in Sources */,
+				2FFB73742A3F894B0017324F /* BlurView.swift in Sources */,
 				2F59D7682A38FFAA009F7FBE /* ContentView.swift in Sources */,
 				2F36371B2A390ADC0081F3DA /* PlaylistCardView.swift in Sources */,
 				2F3637172A3908E90081F3DA /* PlaylistView.swift in Sources */,
 				2F3637192A3908FA0081F3DA /* LibraryView.swift in Sources */,
+				2FFB73782A3F8E650017324F /* CornerRadius.swift in Sources */,
 				2F59D7662A38FFAA009F7FBE /* MusicPlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
